@@ -9,8 +9,14 @@ html {
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight:300;
+}
+h1{
+  font-family:Lato, sans-serif;
+  font-size: large;
+  letter-spacing: 2px;
+  
 }
 .logo {     
     margin: 0;
@@ -19,17 +25,37 @@ body{
     margin-right: auto;
 }
 
-  .banner {
+  .hero-image {
     /* The image used */
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../images/bg-img.jpg");
+    url("../images/hero-image.jpg");
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;     
   }
-  
+
+.button {
+    text-align:center;
+    background-color: #4CAF50; /* Green */
+    position: absolute;
+    bottom: 10px;
+    border-radius: 8px;
+    left: 50%;
+    margin-left: -104.5px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.2s;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+  }
+  button:hover {
+    opacity:1;
+  }
   /* The navbar */
   .nav {
     border:1px solid #ccc;
@@ -59,3 +85,16 @@ body{
     background-color: #ddd;
     color: black;
   }
+  
+  /*studio ethos*/
+
+#studio-ethos h1{
+  text-align:center;
+  font-size: 3.2rem;
+  line-height: 1.4;
+  margin-top: 0;
+  margin-bottom: 0.5rem; 
+  }
+
+.split-section {
+  padding: 0; }
