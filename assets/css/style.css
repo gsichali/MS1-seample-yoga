@@ -18,16 +18,42 @@ h1{
   letter-spacing: 2px;
   
 }
+q, span {
+  font-size:x-large;
+  font-family:Montserrat, sans-serif;
+  font-weight:300;
+  text-align: center;
+  letter-spacing: none;
+  line-height: 1.8;
+  margin-top: 5;
+  padding: 14px 20px;
+  margin: 8px 0;
+  position:center;
+  bottom: 10px;
+ 
+  
+}
+.column p{
+  font-size:large;
+  font-family:Montserrat, sans-serif;
+  font-weight:300;
+  text-align: left;
+  letter-spacing: 1px;
+  
+}
+
+
 .logo {     
     margin: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
   .hero-image {
     /* The image used */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("../images/hero-image.jpg");
     height: 100vh;
     width: 100vw;
@@ -42,8 +68,7 @@ h1{
     position: absolute;
     bottom: 10px;
     border-radius: 8px;
-    left: 50%;
-    margin-left: -104.5px;
+    left: 45%;
     padding: 10px;
     width: 120px;
     transition: all 0.2s;
@@ -67,6 +92,7 @@ h1{
   }
 .nav li{
     display:inline;
+
 }
   
   /* Navbar links */
@@ -91,10 +117,47 @@ h1{
 #studio-ethos h1{
   text-align:center;
   font-size: 3.2rem;
-  line-height: 1.4;
+  line-height: 1.8;
   margin-top: 0;
-  margin-bottom: 0.5rem; 
+  margin-bottom: 0.9rem;
+  font-family:Shadows Into Light, cursive;   
   }
 
-.split-section {
-  padding: 0; }
+#studio-ethos .top-left, .top-right {
+  padding: 0; 
+  height: -50%;
+  width: 50%;
+  position: fixed;
+  bottom: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: 300px;
+  }
+
+/* Clear floats after the columns */
+.row {
+  display: flex;
+  
+}
+
+.left-image{
+  background-image:url("../images/split-left.jpg");   
+    background-repeat: no-repeat;   
+    background-size: cover;
+
+}
+.right-image{
+  background-image:url("../images/split-right.jpg");   
+    background-repeat: no-repeat;   
+    background-size: cover;
+
+}
+.column h2{
+  text-align:center;
+}
+
