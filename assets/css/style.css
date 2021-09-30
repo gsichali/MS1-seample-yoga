@@ -113,14 +113,18 @@ q, span {
   }
   
   /*studio ethos*/
+#studio-ethos{
+  background-color: rgb(235,236,225);
+}
 
 #studio-ethos h1{
   text-align:center;
   font-size: 3.2rem;
   line-height: 1.8;
   margin-top: 0;
-  margin-bottom: 0.9rem;
-  font-family:Shadows Into Light, cursive;   
+  margin-bottom: 1.0rem;
+  font-family:Shadows Into Light, cursive;
+  
   }
 
 #studio-ethos .top-left, .top-right {
@@ -131,6 +135,19 @@ q, span {
   bottom: 0;
   overflow-x: hidden;
   padding-top: 20px;
+}
+
+#class-types{
+  background-color:rgb(203,216,198) ;
+}
+#class-types h1{ 
+    text-align:center;
+    font-size: 3.2rem;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 1.0rem;
+    font-family:Shadows Into Light, cursive;
+    
 }
 
 .column {
@@ -149,6 +166,7 @@ q, span {
   background-image:url("../images/split-left.jpg");   
     background-repeat: no-repeat;   
     background-size: cover;
+    width:100%;
 
 }
 .right-image{
@@ -159,5 +177,41 @@ q, span {
 }
 .column h2{
   text-align:center;
+}
+#class-types .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+#class-types .row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+#class-types .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height:90%;
+}
+#class-types .video-lesson{
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 1.0rem;
+    line-height: 1.8;
+ }
+
+/*media*/
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
 }
 
