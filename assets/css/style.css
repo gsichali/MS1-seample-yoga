@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 html {
     overflow-x: hidden !important; 
@@ -111,9 +112,26 @@ q, span {
     background-color: #ddd;
     color: black;
   }
+
+  /*intro text*/
+
+  #intro-text{
+    background-color:none;
+    padding-top:2%;
+  }
+
+  #intro-text h1{
+  text-align:center;
+  font-size: 3.2rem;
+  line-height: 1.8;
+  margin-top: 0;
+  margin-bottom: 1.0rem;
+  font-family:Shadows Into Light, cursive
+
+}
   
   /*studio ethos*/
-#studio-ethos{
+#studio-etho{
   background-color: rgb(235,236,225);
 }
 
@@ -124,20 +142,50 @@ q, span {
   margin-top: 0;
   margin-bottom: 1.0rem;
   font-family:Shadows Into Light, cursive;
-  
-  }
-
-#studio-ethos .top-left, .top-right {
-  padding: 0; 
-  height: -50%;
-  width: 50%;
-  position: fixed;
-  bottom: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
 }
 
-#class-types{
+.left-image, .right-image {
+  padding: 0; 
+  overflow-x: hidden;
+  background-repeat: no-repeat;   
+  background-size:cover;
+  border:2px;
+  width:49%;
+  float:left;
+  height:100%;
+  margin-right:2%;
+  margin-left:2%;
+}
+
+.left-image{
+  background-image:url("../images/split-left.jpg");   
+
+}
+.right-image{
+  background-image:url("../images/split-right.jpg");   
+}
+
+.left-text, .right-text{
+  border:2px;
+  width:49%;
+  float:left;
+  height:100%;
+  margin-right:2%;
+  margin-left:2%;
+}
+
+.left-text{
+  background-color:rgb(235,236,225); 
+  background-position: rgb(203,216,198);
+}
+.right-text{
+  background-color:rgb(203,216,198); 
+  background-position: right;
+}
+
+/*class categories*/
+
+#class-type{
   background-color:rgb(203,216,198) ;
 }
 #class-types h1{ 
@@ -148,36 +196,28 @@ q, span {
     margin-bottom: 1.0rem;
     font-family:Shadows Into Light, cursive;
     
+    
 }
 
 .column {
   flex: 50%;
   padding: 10px;
-  height: 300px;
+  height: 500px;
+  margin-right: 2%;
+  margin-left:2%;
   }
 
 /* Clear floats after the columns */
 .row {
   display: flex;
+  border:2px;
   
 }
 
-.left-image{
-  background-image:url("../images/split-left.jpg");   
-    background-repeat: no-repeat;   
-    background-size: cover;
-    width:100%;
-
-}
-.right-image{
-  background-image:url("../images/split-right.jpg");   
-    background-repeat: no-repeat;   
-    background-size: cover;
-
-}
 .column h2{
   text-align:center;
 }
+
 #class-types .column {
   float: left;
   width: 25%;
@@ -193,13 +233,6 @@ q, span {
   clear: both;
 }
 
-.card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-  height:90%;
-}
 #class-types .video-lesson{
     width: 100%;
     height: auto;
@@ -208,10 +241,17 @@ q, span {
     line-height: 1.8;
  }
 
-/*media*/
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
+ /*Yoga class type description*/
+
+ 
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  height:90%;
 }
+
+/*media*/
+
 
