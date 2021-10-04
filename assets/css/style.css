@@ -53,7 +53,7 @@ q, span {
   .hero-image {
     /* The image used */
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("../images/hero-image.jpg");
+    url("../images/hero-image.webp");
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ q, span {
 
 .button {
     text-align:center;
-    background-color: #4CAF50; /* Green */
+    background-color:rgb(203,216,198);
     position: absolute;
     bottom: 10px;
     border-radius: 8px;
@@ -95,7 +95,7 @@ q, span {
 }
   
   /* Navbar links */
-  .nav a {
+.nav a {
     color: #f2f2f2;
     text-align: center;
     display:inline-block;
@@ -115,12 +115,15 @@ q, span {
 
   #intro-text{
     background-color:none;
+    margin-top: 0;
    
   }
 
   #intro-text h1{
   text-align:center;
   font-size: 2.2rem;
+  font-weight:800;
+  color:rgb(203,216,198);
   line-height: 1.9;
   margin-top: 0;
 
@@ -156,12 +159,12 @@ q, span {
 }
 
 .left-image{
-  background-image:url("../images/split-left.jpg");  
+  background-image:url("../images/split-left.webp");  
   margin-left:0.5%; 
 
 }
 .right-image{
-  background-image:url("../images/split-right.jpg"); 
+  background-image:url("../images/split-right.webp"); 
   margin-right:0.5%;
   
 }
@@ -170,18 +173,17 @@ q, span {
   border:2px;
   width:49%;
   float:left;
-  height:100%;
+  height:80%;
   opacity: 0.9;
 
  
 }
 
 .left-text{
-  background-color:rgb(235,236,225);  
+  background-color:rgb(203,216,198);  
   margin-left:0.5%;
-  margin-top:3%;
   opacity: 1.9;
-  font-size: 1.0rem;
+  font-size: 1.7rem;
  
 }
 .right-text{
@@ -212,7 +214,7 @@ q, span {
 .column {
   flex: 50%;
   padding: 10px;
-  height: 500px;
+  height: 400px;
 
   }
 
@@ -248,7 +250,7 @@ q, span {
 .video-lesson{
     width: 100%;
     height: auto;
-    margin-top: 0;
+    margin-top: 2%;
     object-fit: fill;
  }
 
@@ -259,11 +261,25 @@ q, span {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
-  height:80%;
-  margin-bottom: 0%;
-  padding-bottom: 0 10px;
+  background: rgb(235,236,225);
+  height:91%;
+  margin-bottom:-20%;
+  padding-bottom: 0 8px;
+  z-index: 10;
 }
+.card_info{
+  z-index: 10;  
+  background-color: rgb(203,216,198);
+  opacity: 0.5;
+  padding: 20px 15px;
+}
+.card_info p{
+  font-weight: 400;
+}
+
+h5 {
+    transition: 300ms ease-in-out;
+  }
 
 footer {
   height: 150px;
@@ -304,8 +320,8 @@ footer {
 /*about us page*/
 .about-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-  url("../images/about-image.jpg");
-  height: 100%;
+  url("../images/about-image.webp");
+  height:100vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
@@ -320,6 +336,55 @@ footer {
   left: 45%;
   padding: 10px;
 }
+/*class page*/
+.class-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url("../images/class-image.webp");
+  height:100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;     
+}
 
+.class h1{
+  text-align:center;  
+  position: absolute;
+  bottom: 10px;
+  border-radius: 8px;
+  left: 45%;
+  padding: 10px;
+}
+/*prices page*/
+.prices-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url("../images/prices-image.webp");
+  height:100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;     
+}
+
+/*schedule page*/
+.schedule-image{
+  background-color: rgb(203,216,198);
+  height:50vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;     
+}
+
+/*contact page*/
+.contact-image{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url("../images/contact-image.webp");
+  height:100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;     
+}
 
 
