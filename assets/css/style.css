@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
 * {
     margin: 0;
+    padding:0;
     border: none;
  
 }
@@ -249,7 +250,7 @@ q, span {
 
 .video-lesson{
     width: 100%;
-    height: auto;
+    height: 0;
     margin-top: 2%;
     object-fit: fill;
  }
@@ -314,7 +315,7 @@ footer {
   color: #3a3a3a;
  
 }
-/*media*/
+
 
 
 /*about us page*/
@@ -380,11 +381,66 @@ footer {
 .contact-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
   url("../images/contact-image.webp");
-  height:100vh;
+  height:50vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;     
 }
 
+.contact-address{
+  margin-left:1.0rem;
+  text-align: left;
+
+}
+.contact-list i{
+    font-size: 130%;
+   
+    padding: 2%;
+    color: #3a3a3a;
+    text-align:center;   
+
+}
+.contact-list > li{
+  display: inline;
+}
+
+.form-block{
+  text-align: left;
+}
+.large-12 {
+  width: 100%; }
+ .form-group {
+  margin-top: 3.0rem;
+  text-align: center; } 
+
+.form-block h5 {
+  margin-bottom: 4.0rem;
+  text-align: center;
+margin-left: auto;
+}
+
+/*maps*/
+
+.map {
+  padding: 0 !important; }
+
+#map {
+  min-height: 50.0rem;
+  width: 100%;
+  display: block; }
+  #map.map-2 {
+    height: 50.0rem; }
+
+
+
+
+
+
+/*media*/
+@media only screen and (max-width: 640px) {
+  #map,
+  iframe {
+    height: 300px;
+    min-height: 0; } }
 
