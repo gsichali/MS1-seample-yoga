@@ -68,25 +68,25 @@
             <div class="column form-block">
                 <h5>Get In Touch</h5>
                 <form action="">
-                    <div class="row">
+                    <div>
                         <div>
-                            <label class="input-label">Name<abbr class="required">*</abbr></label>
-                            <input type="text" class="form-control" id="name" required>
+                            <label for="fname">Name</label>
+                            <input type="text" id="name" name="fullname" placeholder="name">
                         </div>
                         <div>
-                            <label class="input-label">Email<abbr class="required">*</abbr></label>
-                            <input type="email" class="form-control" id="email" required>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
                         </div>
                         <div>
-                            <label class="input-label">Subject</label>
-                            <input type="text" class="form-control" id="subject">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject">
                         </div>
                         <div>
-                            <label class="input-label">Message<abbr class="required">*</abbr></label>
-                            <textarea class="form-control" id="message" required></textarea>
+                            <label for="message">Message<class="required">*</label>
+                            <textarea id="message" required></textarea>
                         </div>
                         <div>
-                            <button type="submit" id="form-submit" class="submit small filled">Submit</button>
+                            <button type="submit" id="form-submit" value="submit">Submit</button>
                             <div id="msgSubmit"></div>
                         </div>
                     </div>
