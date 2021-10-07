@@ -294,6 +294,9 @@ footer {
   list-style-type:none;
   text-align: center;
 }
+.txt-center-align p{
+  text-align: center;
+}
 
 /*schedule page*/
 .schedule-image{
