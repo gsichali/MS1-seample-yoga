@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap');
-
 * {
     margin: 0;
     padding:0;
@@ -153,7 +152,7 @@ button:hover {
 .right-image{
   background-image:url("../images/split-right.webp");
 }
-.left-text{
+.left-text, .align-center-title p{
   font-size: 1.7rem; 
 }
 .right-text{ 
@@ -241,7 +240,7 @@ footer {
   margin-left:1%;
   margin-top:3%;
 }
-.socials-list, .copyrights {
+.socials-list, .copyrights,.align-center-title p {
   text-align: center; 
   
 }
@@ -326,6 +325,15 @@ footer {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;     
+}
+.cover-img-text{
+  text-align: right;
+  font-size: x-large;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
 /*contact page*/
