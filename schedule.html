@@ -38,29 +38,64 @@
             <br>           
         </div>
     </section>
-         <div class="row">
-            <div class="column outer-bg-color-light-green txt-center">
-                <ul class="accordion">
-                    <li"></li>
-                        <button class="accordion-day">Monday</button>
-                    <li></li>
-                        <button class="accordion-day">Tuesday</button>
-                    <li></li>
-                        <button class="accordion-day">Wednesday</button>
-                    <li></li>
-                        <button class="accordion-day">Thursday</button>
-                    <li></li>
-                        <button class="accordion-day">Friday</button>
-                    <li></li>
-                        <button class="accordion-day">Saturday</button>
-                    <li></li>
-                        <button class="accordion-day">Sunday</button>                    
-                </ul>
-            </div>
-         </div>   
     <section>
-       
-    <footer>
+        <div class="row">
+            <div class="column outer-bg-color-light-green">
+                <div class="schedule-content column">
+                    <input class="radio outer-bg-color-beige" id="monday" name="group" type="radio" checked>
+                    <input class="radio" id="tuesday" name="group" type="radio">
+                    <input class="radio" id="wednesday" name="group" type="radio">
+                    <input class="radio" id="thursday" name="group" type="radio">
+                    <input class="radio" id="friday" name="group" type="radio">
+                    <input class="radio" id="saturday" name="group" type="radio">
+                    <input class="radio" id="sunday" name="group" type="radio">
+
+                    <!--tabs-->
+                    <div class="week-tabs">
+                        <label class="week-tab" id="monday-tab" for="monday">Monday</label>
+                        <label class="week-tab" id="tuesday-tab" for="tuesday">Tuesday</label>
+                        <label class="week-tab" id="wednesday-tab" for="wednesday">Wednesday</label>
+                        <label class="week-tab" id="thursday-tab" for="thursday">Thursday</label>
+                        <label class="week-tab" id="friday-tab" for="friday">Friday</label>
+                        <label class="week-tab" id="saturday-tab" for="saturday">Saturday </label>
+                        <label class="week-tab" id="sunday-tab" for="sunday">Sunday </label>
+                    </div>
+                    <!--panels-->
+                    <div class="week-panels outer-bg-color-beige">
+                        <div class="week-panel" id="monday-panel">
+                            <div class="week-panel-title">Schedule</div>
+                                <p></p>
+                        </div>
+                    <div class="week-panel" id="tuesday-panel">
+                        <div class="week-panel-title">Schedule</div>
+                        <p></p>
+                    </div>
+                    <div class="week-panel" id="wednesday-panel">
+                        <div class="week-panel-title">Schedule</div>
+                        <p>.</p>
+                    </div>
+                    <div class="week-panel" id="thursday-panel">
+                        <div class="panel-title">Schedule</div>
+                        <p></p>
+                    </div>
+                    <div class="week-panel" id="friday-panel">
+                        <div class="week-panel-title">Schedule</div>
+                        <p></p>
+                    </div>
+                    <div class="week-panel" id="saturday-panel">
+                        <div class="week-panel-title">Schedule</div>
+                        <p></p>
+                    </div>
+                    <div class="week-panel" id="sunday-panel">
+                        <div class="week-panel-title">Schedule</div>
+                        <p></p>
+                    </div>                    
+                </div>
+            </div>      
+        </div> 
+    </section>
+    <br>                                   
+    <footer class="outer-bg-color-beige">
         <a href="index.html">
             <img class ="footer-logo" src="assets/images/Seample-Black-Logo.png" width="120" alt="logo">            
         </a>

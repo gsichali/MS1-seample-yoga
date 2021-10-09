@@ -331,22 +331,6 @@ footer {
   transform: translate(-50%, -50%);
   color: white;
 }
-.accordion{
-  list-style-type: none;
-  text-transform: none;
-  margin: 0; 
-}
-.accordion-day{
-  font-size: 0.8rem;
-  color: black;
-  font-weight: 400;
-  text-decoration: none;
-  display: inline;
-  padding: 2.0rem 4.5rem 2.0rem 2.0rem;
-  line-height: 0.2; 
-  position: relative;
-}
-  
 
 /*contact page*/
 .contact-image{
@@ -439,3 +423,75 @@ input[type=submit] {
     height: 300px;
     min-height: 0; } }
 
+/*################################*/
+h2{
+  color:#000;
+  text-align:center;
+  font-size:2em;
+}
+.schedule-content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.week-tab{
+  cursor: pointer;
+  padding:10px 20px;
+  margin:0px 16px;
+  background:#000;
+  display:inline-block;
+  color:#fff;
+  border-radius:4px 4px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+.week-panels{
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:300px;
+  width:100%;
+  max-width:1000px;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px;  
+}
+.week-panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.week-panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#monday:checked ~ .week-panels #monday-panel,
+#tuesday:checked ~ .week-panels #tuesday-panel,
+#wednesday:checked ~ .week-panels #wednesday-panel,
+#thursday:checked ~ .week-panels #thursday-panel,
+#friday:checked ~ .week-panels #friday-panel,
+#saturday:checked ~ .week-panels #saturday-panel,
+#sunday:checked ~ .week-panels #sunday-panel{
+  display:block
+}
+/*effects when week day tab is selected*/
+#monday:checked ~ .week-tabs #monday-tab,
+#tuesday:checked ~ .week-tabs #tuesday-tab,
+#wednesday:checked ~ .week-tabs #wednesday-tab,
+#wednesady:checked ~ .week-tabs #tuesday-tab,
+#thursday:checked ~ .week-tabs #thursday-tab,
+#friday:checked ~ .week-tabs #friday-tab,
+#saturday:checked ~ .week-tabs #saturday-tab,
+#sunday:checked ~ .week-tabs #sunday-tab
+{
+  background:rgb(235,236,225);
+  color:#000;
+  border-top: 3px solid #000;
+}
