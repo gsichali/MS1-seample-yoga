@@ -312,6 +312,8 @@ footer {
 .txt-center{
   text-align: center;
 }
+.text-left {
+  text-align: left; }
 
 /*schedule page*/
 .schedule-image{
@@ -331,6 +333,129 @@ footer {
   transform: translate(-50%, -50%);
   color: white;
 }
+.inner-row:after {
+  content: "";
+  display:flexbox;
+  clear: both;
+}
+.inner-row {
+  float: left;
+  width: 50%;
+  max-height: 50%;
+  margin:0;
+  padding-bottom: 2%;
+  margin: 0 -5px;
+}
+
+.week-panel h3 {
+font-size: 14px;
+margin-left:26%;
+margin-top: 1%;
+
+}
+
+.inner-row-card{
+  margin: 0 -5px;
+}
+.inner-row-card:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.inner-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.inner-col-card{
+    width: 25%;
+    padding: 0 10px;
+    margin:2%
+}
+
+.book-class-btn {
+  padding: 2px;
+  width: 1%;
+  text-align: center;
+}
+
+h2{
+  color:#000;
+  text-align:center;
+  font-size:2em;
+}
+.schedule-content{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.week-tab{
+  cursor: pointer;
+  padding:10px 20px;
+  margin:0px 16px;
+  background:#000;
+  display:inline-block;
+  color:#fff;
+  border-radius:4px 4px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+.week-panels{
+  box-shadow: 0 2rem 2rem #00000080;
+  min-height:300px;
+  width:100%;
+  max-width:1000px;
+  border-radius:3px;
+  overflow:hidden;
+  padding:20px;  
+}
+.card-display{
+  display:inline;
+}
+.week-panel{
+  display:none;
+  animation: fadein .8s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+.week-panel-title{
+  font-size:1.5em;
+  font-weight:bold
+}
+.radio{
+  display:none;
+}
+#monday:checked ~ .week-panels #monday-panel,
+#tuesday:checked ~ .week-panels #tuesday-panel,
+#wednesday:checked ~ .week-panels #wednesday-panel,
+#thursday:checked ~ .week-panels #thursday-panel,
+#friday:checked ~ .week-panels #friday-panel,
+#saturday:checked ~ .week-panels #saturday-panel,
+#sunday:checked ~ .week-panels #sunday-panel{
+  display:block
+}
+/*effects when week day tab is selected*/
+#monday:checked ~ .week-tabs #monday-tab,
+#tuesday:checked ~ .week-tabs #tuesday-tab,
+#wednesday:checked ~ .week-tabs #wednesday-tab,
+#wednesady:checked ~ .week-tabs #tuesday-tab,
+#thursday:checked ~ .week-tabs #thursday-tab,
+#friday:checked ~ .week-tabs #friday-tab,
+#saturday:checked ~ .week-tabs #saturday-tab,
+#sunday:checked ~ .week-tabs #sunday-tab
+{
+  background:rgb(235,236,225);
+  color:#000;
+  border-top: 3px solid #000;
+}
+
 
 /*contact page*/
 .contact-image{
@@ -422,76 +547,3 @@ input[type=submit] {
   iframe {
     height: 300px;
     min-height: 0; } }
-
-/*################################*/
-h2{
-  color:#000;
-  text-align:center;
-  font-size:2em;
-}
-.schedule-content{
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-.week-tab{
-  cursor: pointer;
-  padding:10px 20px;
-  margin:0px 16px;
-  background:#000;
-  display:inline-block;
-  color:#fff;
-  border-radius:4px 4px 0px 0px;
-  box-shadow: 0 0.5rem 0.8rem #00000080;
-}
-.week-panels{
-  box-shadow: 0 2rem 2rem #00000080;
-  min-height:300px;
-  width:100%;
-  max-width:1000px;
-  border-radius:3px;
-  overflow:hidden;
-  padding:20px;  
-}
-.week-panel{
-  display:none;
-  animation: fadein .8s;
-}
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-.week-panel-title{
-  font-size:1.5em;
-  font-weight:bold
-}
-.radio{
-  display:none;
-}
-#monday:checked ~ .week-panels #monday-panel,
-#tuesday:checked ~ .week-panels #tuesday-panel,
-#wednesday:checked ~ .week-panels #wednesday-panel,
-#thursday:checked ~ .week-panels #thursday-panel,
-#friday:checked ~ .week-panels #friday-panel,
-#saturday:checked ~ .week-panels #saturday-panel,
-#sunday:checked ~ .week-panels #sunday-panel{
-  display:block
-}
-/*effects when week day tab is selected*/
-#monday:checked ~ .week-tabs #monday-tab,
-#tuesday:checked ~ .week-tabs #tuesday-tab,
-#wednesday:checked ~ .week-tabs #wednesday-tab,
-#wednesady:checked ~ .week-tabs #tuesday-tab,
-#thursday:checked ~ .week-tabs #thursday-tab,
-#friday:checked ~ .week-tabs #friday-tab,
-#saturday:checked ~ .week-tabs #saturday-tab,
-#sunday:checked ~ .week-tabs #sunday-tab
-{
-  background:rgb(235,236,225);
-  color:#000;
-  border-top: 3px solid #000;
-}
