@@ -97,7 +97,7 @@ button:hover {
     padding:0;
     text-align:center;
 }
-.nav li{
+.nav li, .accordion li{
     display:inline;
 }
   
@@ -218,12 +218,8 @@ button:hover {
   text-align: center;
   z-index: 10;
   margin-top:auto;
-  margin-bottom: 19%;
-  
+  margin-bottom: 19%;  
 }
-
-
-
 h5 {
     transition: 300ms ease-in-out;
   }
@@ -240,7 +236,7 @@ footer {
   margin-left:1%;
   margin-top:3%;
 }
-.socials-list, .copyrights,.align-center-title p {
+.socials-list, .copyrights,.align-center-title p, .accordion-day li {
   text-align: center; 
   
 }
@@ -313,7 +309,7 @@ footer {
   list-style-type:none;
   text-align: center;
 }
-.txt-center-align p{
+.txt-center{
   text-align: center;
 }
 
@@ -335,6 +331,22 @@ footer {
   transform: translate(-50%, -50%);
   color: white;
 }
+.accordion{
+  list-style-type: none;
+  text-transform: none;
+  margin: 0; 
+}
+.accordion-day{
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline;
+  padding: 2.0rem 4.5rem 2.0rem 2.0rem;
+  line-height: 0.2; 
+  position: relative;
+}
+  
 
 /*contact page*/
 .contact-image{
