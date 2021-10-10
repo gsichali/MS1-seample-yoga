@@ -272,11 +272,32 @@ footer {
 .team-background-img{
   background-image:url("../images/gallery-img-2.webp");
 }
+.about-mission-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url("../images/gallery-img-5.webp");
+  height:75vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; 
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.overlay p{
+  color:white;
+  font-size: 1.0rem;
+  padding-top: 2%;
+  font-weight: 600;
+}
+
 /*prices page*/
 .prices-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-  url("../images/prices-image.webp");
-  height:50vh;
+  url("../images/gallery-img-5.webp");
+  height:75vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
@@ -438,8 +459,8 @@ h2{
 /*contact page*/
 .contact-image{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-  url("../images/contact-image.webp");
-  height:50vh;
+  url("../images/gallery-img-7.webp");
+  height:75vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
