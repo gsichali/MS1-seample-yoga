@@ -48,7 +48,7 @@ q, span {
     margin-left: auto;
     margin-right: auto;    
 }
-
+/*Home Page*/
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("../images/hero-image.webp");
@@ -159,7 +159,7 @@ q, span {
   font-size: 2.0rem;   
 }
 
-/*class categories*/
+/*body column*/
 .column {
   flex: 50%;
   padding: 10px;
@@ -172,31 +172,13 @@ q, span {
   border:2px;  
 }
 
-.col-3-card .column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-  box-sizing: border-box;
-  margin-right: 1%;
-  margin-left:1%;
-  
-}
-.col-3-card .row {margin: 0 -5px;}
-
-/* Clear floats after the columns */
-.col-3-card .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
- /*Yoga class type description*/
-
+/*Card section - class categories*/
  
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   text-align: center;
-  height:91%;
+  height:100%;
   margin-bottom:-20%;
   padding-bottom: 0 8px;
   z-index: 10;
@@ -206,60 +188,22 @@ q, span {
   z-index: 10;  
   opacity: 0.5;
   padding: 20px 15px;
-  height:60%;
+  height:80%;
   display:-ms-inline-grid;
 }
 .card_info p{
   font-weight: 400;
 }
-.card_info button{
-  font-weight: 400;
-  color:red;
-  text-align: center;
-  z-index: 10;
-  margin-top:auto;
-  margin-bottom: 19%;  
-}
 h5 {
     transition: 300ms ease-in-out;
   }
-
-  /*Footer*/
-footer {
-  height: 150px;
-}
-
-.footer-logo{
-  margin-bottom: 0%;
-  bottom: 15px;
-  float:left;
-  margin-left:1%;
-  margin-top:3%;
-}
-.socials-list, .copyrights,.align-center-title p, .accordion-day li {
-  text-align: center; 
-  
-}
-.socials-list > li {
-  display: inline;
-  text-align: center;
-}
-
-.copyrights{
-  margin-top:1%;
-}
-.socials-list i {
-  font-size: 140%;
-  margin: 1%;
-  padding: 2%;
-  color: #3a3a3a; 
-}
+ 
 /*about us page*/
 
 .about-us-img{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
   url("../images/about-us-img.webp");
-  height:50vh;
+  height:75vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
@@ -336,10 +280,25 @@ hr.goals-line:after {
 .text-left {
   text-align: left; }
 
+.membership-btn{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.membership-btn:hover {
+  background-color: #555;
+}
+
 /*schedule page*/
 .schedule-image{
   background-color: rgb(203,216,198);
-  height:50vh;
+  height:75vh;
   width: 100vw;
   background-repeat: no-repeat;
   background-position: center center;
@@ -347,9 +306,9 @@ hr.goals-line:after {
 }
 .cover-img-text{
   text-align: right;
-  font-size: x-large;
+  font-size: xx-large;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -387,12 +346,16 @@ margin-top: 1%;
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
+  height:100%;
 }
 
 .inner-col-card{
-    width: 25%;
-    padding: 0 10px;
-    margin:2%
+    width: 29%;
+    padding: 0 20px;
+    margin:2%;
+    display:inline-block;
+    height:fit-content;
+    
 }
 
 .book-class-btn {
@@ -622,6 +585,37 @@ button:hover {
    margin-left: 6%;
    margin-right: 6%;
    height:100vh;  
+}
+
+ /*Footer*/
+ footer {
+  height: 150px;
+}
+
+.footer-logo{
+  margin-bottom: 0%;
+  bottom: 15px;
+  float:left;
+  margin-left:1%;
+  margin-top:3%;
+}
+.socials-list, .copyrights,.align-center-title p, .accordion-day li {
+  text-align: center; 
+  
+}
+.socials-list > li {
+  display: inline;
+  text-align: center;
+}
+
+.copyrights{
+  margin-top:1%;
+}
+.socials-list i {
+  font-size: 140%;
+  margin: 1%;
+  padding: 2%;
+  color: #3a3a3a; 
 }
 
 /*media*/
