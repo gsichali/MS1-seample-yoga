@@ -561,6 +561,16 @@ input[type=submit] {
   margin-right:0.2%;
  }
 
+ /* sign up page*/
+ .sign-up-img{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  url("../images/gallery-img-1.webp");
+  height:100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;   
+ }
 
 /*media*/
 @media only screen and (max-width: 640px) {
