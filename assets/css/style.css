@@ -213,11 +213,11 @@ blockquote::after{
  
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
+  padding: 10px;
   text-align: center;
   height:100%;
   margin-bottom:-20%;
-  padding-bottom: 0 8px;
+  padding-bottom: 0 6px;
   z-index: 10;
 }
 
@@ -225,11 +225,12 @@ blockquote::after{
   z-index: 10;  
   opacity: 0.5;
   padding: 20px 15px;
-  height:80%;
+  height:100%;
   display:-ms-inline-grid;
 }
-.card_info p{
-  font-weight: 400;
+.team-background-img a, h5{
+  font-weight: 600;
+
 }
 h5 {
     transition: 300ms ease-in-out;
