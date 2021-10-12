@@ -362,10 +362,10 @@ hr.goals-line:after {
   padding-bottom: 2%;
   margin: 0 -5px;
 }
-.week-panel h3 {
-font-size: 14px;
-margin-left:26%;
-margin-top: 1%;
+.week-panel h4{
+font-size: 10px;
+color:black;
+text-align: center;
 }
 
 .inner-row-card{
@@ -377,13 +377,13 @@ margin-top: 1%;
   clear: both;
 }
 .inner-card{
-  box-shadow: 0 2rem 2rem #00000080; /* this adds the "card" effect */
+  box-shadow: 0 2rem 2rem #00000080; /* this adds the shadow effect */
   padding: 16px;
   text-align: center;
   background-color: #f1f1f1;
   height:100%;
+  margin-bottom:-5%;
 }
-
 .inner-col-card{
     width: 29%;
     padding: 0 20px;
@@ -420,7 +420,7 @@ h2{
 }
 .week-panels{
   box-shadow: 0 2rem 2rem #00000080;
-  min-height:300px;
+  min-height:350px;
   width:100%;
   max-width:1000px;
   border-radius:3px;
