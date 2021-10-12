@@ -182,7 +182,7 @@ blockquote::after{
 .right-text{ 
   font-size: 1.8rem;   
 }
-a:link, a:visited {
+.card-a:link, .card-a:visited {
   background-color: #ebece4;
   color:black;
   font-weight:400;
@@ -192,7 +192,7 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+.card-a:hover, .card-a:active {
   background-color:#e6e9d5;
 }
 
