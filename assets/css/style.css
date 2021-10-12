@@ -653,6 +653,12 @@ button:hover {
   padding: 2%;
   color: #3a3a3a; 
 }
+.page-not-found{  
+background-color:rgb(203,216,198);
+height: 100vh;
+width:100vw;
+background-size: cover;
+}
 
 /*media*/
 @media only screen and (max-width: 640px) {
