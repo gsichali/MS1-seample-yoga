@@ -38,7 +38,7 @@ blockquote::before{
   font-family:Montserrat, sans-serif;
   content: "\201C";
   color:#cbd8c6;
-  font-size:6em;
+  font-size:4em;
   position: absolute;
   left: 10px;
   top:-80px;
@@ -48,7 +48,7 @@ blockquote::after{
   font-family:Montserrat, sans-serif;
   content: "\201D";
   color:#cbd8c6;
-  font-size:6em;
+  font-size:4em;
   position: absolute;
   right: 10px;
 }
@@ -118,7 +118,7 @@ blockquote::after{
     padding:0;
     text-align:center;
 }
-.nav li, .accordion li{
+.nav li{
     display:inline;
 }
   
@@ -145,9 +145,12 @@ blockquote::after{
   font-weight:800;
   margin-top: 0;
   color:rgb(203,216,198);
-  background: none;
-  
+  background: none;  
   font-family:Shadows Into Light, cursive
+}
+
+.inner-col-2-split h2{
+  font-family:Shadows Into Light, cursive;
 }
   
   /*studio ethos 2 column section*/
@@ -177,7 +180,20 @@ blockquote::after{
   font-size: 1.7rem; 
 }
 .right-text{ 
-  font-size: 2.0rem;   
+  font-size: 1.8rem;   
+}
+a:link, a:visited {
+  background-color: #ebece4;
+  color:black;
+  font-weight:400;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color:#e6e9d5;
 }
 
 /*body column*/
