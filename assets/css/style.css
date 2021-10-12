@@ -366,7 +366,6 @@ hr.goals-line:after {
 font-size: 14px;
 margin-left:26%;
 margin-top: 1%;
-
 }
 
 .inner-row-card{
@@ -390,8 +389,7 @@ margin-top: 1%;
     padding: 0 20px;
     margin:2%;
     display:inline-block;
-    height:fit-content;
-    
+    height:fit-content;    
 }
 
 .book-class-btn {
@@ -658,6 +656,14 @@ background-color:rgb(203,216,198);
 height: 100vh;
 width:100vw;
 background-size: cover;
+}
+.page-not-found h1,h4{
+  color:#ebece4;
+  padding:2%;
+  line-height:1.6;
+}
+.page-not-found button{
+  width:fit-content;
 }
 
 /*media*/
