@@ -386,11 +386,10 @@ text-align: center;
   margin-bottom:-5%;
 }
 .inner-col-card{
-    max-width: 29%;
+    width: 29%;  /*aligns cards evenly*/
     padding: 0 20px;
     margin:2%;
-    display:inline-block;
-    height:fit-content;    
+    display:inline-block;   
 }
 
 h2{
