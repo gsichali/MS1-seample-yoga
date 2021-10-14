@@ -25,3 +25,18 @@
     1. [Code](#code)
     2. [Media](#media)
     3. [Acknowledgements](#acknowledgements)
+
+## Project Goals
+The business goal of the website is to:
+- Build an online and offline community of users by providing both live and in person classes. 
+- Generate income and revenue from monthly subscribers.
+- Provide an exceptional yoga experience and guidance to users on how to improve their body, wellbeing and soul.
+-  Create the best virtual experience by building a user friendly and intuitive UX site.
+
+User Goals:
+Seample users will be able to:
+- Find the lost space in their again by joining in a variety of yoga classes.
+-  Practice yoga at home through online classes. 
+- Subscribe to a membership for more perks.
+- Find more information about yoga types.
+- Find location of the studio and nearby amenities.
