@@ -62,6 +62,13 @@ Seample users will be able to:
 ### Typography
 
 ## Wireframes
+- Wireframes: 
+[Home](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/home.pdf)
+[About](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/about.pdf)
+[Contact](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/home.pdf)
+[Schedule](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/home.pdf)
+[Prices](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/home.pdf)
+
 
 ## Features
 
