@@ -1,29 +1,27 @@
-# Table Of Contents
+## Table Of Contents
 
-1. Project Goals
-    1. User Goals
-    2. Site Owner Goals
-2. User Experience
-    1. Target Audience
-    2. User Requirements and Expectations
-    3. User stories
-    4. Design
-    5. Wireframes
-3. Features
-4. Technologies Used
-    1. Languages
-    2. Frameworks & Tools
-5. Testing
-    1. HTML Validation
-    2. CSS Validation
-    3. Accessibility
-    4. Performance
-    5. Device testing
-    6. Browser compatibility
-    7. Testing user stories
-6. Bugs
-7. Deployment
-8. Credits
-    1. Code
-    2. Media
-    3. Acknowledgements
+1. [Project Goals](#project-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [Scope](#scope)
+    3. [User stories](#user-stories)
+    4. [Design](#design)
+    5. [Wireframes](#wireframes)
+3. [Features](#features)
+4. [Technologies Used](technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#framewworks)
+5. [Testing](#testing)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#device-testing)
+    6. [Browser compatibility](#browser-compatibility)
+    7. [Testing user stories](#testing-user-stories)
+6. [Bugs](#bugs-found-and-resolved)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+    1. [Code](#code)
+    2. [Media](#media)
+    3. [Acknowledgements](#acknowledgements)
