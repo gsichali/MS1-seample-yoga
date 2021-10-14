@@ -31,12 +31,89 @@ The business goal of the website is to:
 - Build an online and offline community of users by providing both live and in person classes. 
 - Generate income and revenue from monthly subscribers.
 - Provide an exceptional yoga experience and guidance to users on how to improve their body, wellbeing and soul.
--  Create the best virtual experience by building a user friendly and intuitive UX site.
+- Create the best virtual experience by building a user friendly and intuitive UX site.
 
 User Goals:
 Seample users will be able to:
 - Find the lost space in their again by joining in a variety of yoga classes.
--  Practice yoga at home through online classes. 
+- Practice yoga at home through online classes. 
 - Subscribe to a membership for more perks.
 - Find more information about yoga types.
 - Find location of the studio and nearby amenities.
+
+## User Experience
+
+### Target Audience
+
+### User Stories
+
+#### First-time users
+
+#### Regular visitors
+
+#### Site owner
+
+## Scope
+
+## Design
+
+### Colour Scheme
+
+### Typography
+
+## Wireframes
+
+## Features
+
+#### Feature 1: Home Page
+#### Feature 2: About Page
+#### Feature 3: Contact Page
+#### Feature 4: Schedule Page
+#### Feature 5: Prices Page
+#### Feature 6: Sign Up Page
+#### Feature 7: 404 Error Page
+#### Feature 8: Navigation Bar
+#### Feature 8: Footer
+#### Feature 10: Contact Form
+
+
+## Technologies Used
+
+### Languages
+### Frameworks
+
+## Testing 
+
+### HTML Validation
+### CSS Validation
+### Accessibility
+### Performance 
+#### Devices tested
+#### Tests performed:
+#### Results: 
+### Browser compatability
+### Testing user stories
+
+## Bugs found and resolved
+
+## Deployment
+
+### GitHub Pages
+
+## Credits
+### Code
+### Media
+
+### Acknowledgements:
+
+
+
+
+
+
+
+
+
+
+
+
