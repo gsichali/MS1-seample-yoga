@@ -222,12 +222,17 @@ blockquote::after{
   display:-ms-inline-grid;
 }
 .card_info h4{
-  color:black;
+  color:#cbd8c6;
+  margin-top: -8%;
 }
+.card_info a{
+  color:#ebece4;
+}
+
 .contact-img a, h5{
   font-weight: 600;
   font-size: medium;
-  color:white;
+  color:black;
 }
 
 h5 {
@@ -530,6 +535,7 @@ input[type=submit] {
   margin-bottom: 3.0rem;
   margin-left: auto;
   text-align: center;
+  color: #000;
 }
 
 /*maps*/
