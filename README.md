@@ -1,3 +1,7 @@
+![Mockup of the website](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/website-mockup.webp)
+
+[View Live Website](https://gsichali.github.io/MS1-seample-yoga/)
+
 ## Table Of Contents
 
 1. [Project Goals](#project-goals)
