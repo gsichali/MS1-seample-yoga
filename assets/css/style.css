@@ -53,6 +53,15 @@ body{
   background-position: center center;
   background-size: cover;     
 }
+.logo{
+  background-image: url("../images/Seample-Black-Logo.png");
+  width:90;    
+  margin: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;    
+}
+
 
 .join-btn {
   text-align:center;   
@@ -114,12 +123,7 @@ blockquote::after{
   right: 10px;
 }
 
-.logo {     
-    margin: 0;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;    
-}
+
 /*body column*/
 .column {
   flex: 50%;
@@ -170,11 +174,11 @@ blockquote::after{
 }
 .left-image{
   background-image:url("../images/split-left.webp"); 
-  background-size:cover;  
+  width:100%;
 }
 .right-image{
   background-image:url("../images/split-right.webp");
-  background-size:cover;
+  width:100%;
 }
 .left-text, .align-center-title p{
   font-size: 1.7rem; 
@@ -724,3 +728,41 @@ background-size: cover;
     }
 
   }
+/* test*/
+/* TWO COLUMN FLEXBOX */
+.two-column img{
+  width:100%;
+}
+.two-column {
+  display:flex;
+  flex-direction:row;
+}
+
+/* TWO COLUMN FLEXBOX */
+.two-column div {
+  border:none; 
+  flex:1; 
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.two-column p{
+  font-size:100%;
+  font-family:Montserrat, sans-serif;
+  font-weight:300;
+  text-align: center;
+  letter-spacing: none;
+  line-height: 1.6;
+  margin-top: 5%;
+  padding: 14px 20px;
+}
+.two-column.reverse {
+  flex-direction: row-reverse;
+}
+@media only screen and (max-width: 600px) {
+  .two-column, .two-column.reverse {
+    flex-direction:column;
+    
+  }
+}
