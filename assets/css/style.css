@@ -8,13 +8,11 @@
 html {
     overflow-x: hidden !important; 
 }
-
 body{
     font-family: Montserrat, sans-serif;
     font-weight:300;
 }
-
-/* The navbar */
+/* Header section --The navbar-- */
 .nav {
   border:1px solid #ccc;
   border-width:1px 0;
@@ -39,7 +37,6 @@ body{
   background-color: #ddd;
   color: black;
 }
-
 /*hero image*/
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
@@ -156,20 +153,6 @@ blockquote::after{
   overflow-x: hidden;
   padding: 10px;
   flex-direction: column;
-}
-.inner-col-2-split h2{
-  font-family:Shadows Into Light, cursive;
-}
-.inner-col-2-split span{
-  margin-left:15%;
-}
-.left-image{
-  background-image:url("../images/split-left.webp"); 
-  width:100%;
-}
-.right-image{
-  background-image:url("../images/split-right.webp");
-  width:100%;
 }
 .left-text, .align-center-title p{
   font-size: 1.7rem; 
@@ -511,7 +494,7 @@ input[type=text], input[type=password] {
    background: #f1f1f1;
 }
 label{
-   font-size: 15px;
+   font-size: 12px;
 }
 textarea{
   background-color: white;
@@ -520,13 +503,13 @@ textarea{
 
 input[type=text], input[type=password], input[type=email], textarea{
   background-color:white;
-  font-size: 15px;
+  font-size: 10px;
   outline: none;
 }
 
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus{
    background-color:rgb(203,216,198);
-   font-size: 15px;
+   font-size: 11px;
    outline: none;
 }
 
@@ -540,7 +523,7 @@ button {
    border: none;
    cursor: pointer;
    opacity: 0.9;
-   padding-bottom: 2%;
+
 }
 button:hover {
    opacity:1;
@@ -643,9 +626,9 @@ background-size: cover;
   display:flex;
 }
 .col-3 img {
-  width:25%;
-  margin-left:35%;
+  width:100%;
 }
+
 .col-3 div {
   flex:1;
   border:1px;
@@ -671,11 +654,29 @@ background-size: cover;
 .card-a:hover, .card-a:active {
   background-color:#e6e9d5;}
 
+
+  /*column 1 contact page*/
 .contact-img a, h5{
   font-weight: 600;
   font-size: medium;
   color:black;
 }
+.col-1 .sign-up-img{
+  width:100%;
+  border:none; 
+  flex:1; 
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.col-1 .formContainer{
+ flex-direction:column;
+}
+.col-1 .form{
+  margin-top: 70%;
+}
+
 
 h5 {
     transition: 300ms ease-in-out;
@@ -700,7 +701,11 @@ h5 {
     height: 500px;
   }
 }
+/***********media****************/
+/* desktop: 1200px laptop: 1024px , tablet: 768px, mobile: 480px /320px */
 
+
+/*tablet section*/
 /*full width for all images except the logo*/
 @media screen and (max-width: 768px){
   .about-us-img, .about-intro-img, .about-mission-img,
@@ -736,13 +741,22 @@ h5 {
     
     }
   }
+  /*phones*/
   @media only screen and (max-width: 320px){
     .nav ul{
       flex-direction: column;
       text-align:center;
       display: flex;
-      margin-left: 25%;   
+      margin-left: 25%;  
     }
+    .hero-image{
+      width:100%;
+    }
+    form .input[type=text], input[type=email], input[type=password]{
+      width:100%;
+      display: flex;
+    }
+
     .logo img{
       margin-left: 30%;
     }
@@ -755,6 +769,18 @@ h5 {
     }
     .copyrights{
       font-size:0.8rem;
+    }
+    .about-mission-img p{
+      font-size: 0.6%;
+      margin-left:7%;
+      margin-right:10%;
+      margin-top:3%;
+    }
+    .goals-line{
+      margin-left:7%;
+      margin-right:10%;
+      margin-top:7%;
+
     }
   }
 @media only screen and (max-width: 480px){
@@ -769,9 +795,6 @@ h5 {
      margin-left: -13%;       
    }  
 }
-
-/* desktop: 1200px laptop: 1024px , tablet: 768px, mobile: 480px */
-/*media*/
 @media screen and (max-width: 950px) {
   .nav {
       clear: left;
