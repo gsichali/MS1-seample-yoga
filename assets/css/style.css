@@ -49,7 +49,7 @@ body{
 }
 .logo{
   background-image: url("../images/Seample-Black-Logo.png");
-  width:90;    
+  width:90%;    
   margin: 0;
   display: block;
   margin-left: auto;
@@ -82,8 +82,7 @@ blockquote {
   font-size:100%;
   font-family:Montserrat, sans-serif;
   font-weight:300;
-  text-align: center;
-  letter-spacing: none;
+  text-align: center;  
   line-height: 1.6;
   margin-top: 5%;
   padding: 14px 20px;
@@ -283,7 +282,7 @@ hr.goals-line:after {
 }
 .inner-row:after {
   content: "";
-  display:flexbox;
+  display:flex;
   clear: both;
 }
 .inner-row {
@@ -612,7 +611,6 @@ background-size: cover;
   font-family:Montserrat, sans-serif;
   font-weight:300;
   text-align: center;
-  letter-spacing: none;
   line-height: 1.6;
   margin-top: 5%;
   padding: 14px 20px;
