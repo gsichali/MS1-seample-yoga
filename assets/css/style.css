@@ -117,7 +117,8 @@ blockquote::after{
 .column {
   flex: 50%;
   padding: 10px;
-  height: 400px;
+  flex-direction: column;
+
 }
 /* Clear floats after the columns */
 .row {
@@ -154,6 +155,7 @@ blockquote::after{
   float:left;  
   overflow-x: hidden;
   padding: 10px;
+  flex-direction: column;
 }
 .inner-col-2-split h2{
   font-family:Shadows Into Light, cursive;
