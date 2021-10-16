@@ -26,7 +26,6 @@ body{
 .nav li{
   display:inline;
 }
-
 .nav a {
   color: #f2f2f2;
   text-align: center;
@@ -36,14 +35,12 @@ body{
   text-decoration: none;
   font-size: 17px;
 }
-
 .nav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-
-/*Home Page*/
+/*hero image*/
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
   url("../images/hero-image.webp");
@@ -61,8 +58,6 @@ body{
   margin-left: auto;
   margin-right: auto;    
 }
-
-
 .join-btn {
   text-align:center;   
   position: absolute;
@@ -78,16 +73,13 @@ body{
   cursor: pointer;
   opacity: 0.9;
 }
-
 .join-btn:hover {
   opacity:1;
 }
-
 h1{
   font-family:Lato, sans-serif;
   font-size: large;
-  letter-spacing: 2px;
-  
+  letter-spacing: 2px;  
 }
 blockquote {
   font-size:100%;
@@ -103,7 +95,6 @@ blockquote {
   max-width:100%;
   position: relative; /*positions the quotation marks*/  
 }
-
 blockquote::before{
   font-family:Montserrat, sans-serif;
   content: "\201C";
@@ -122,8 +113,6 @@ blockquote::after{
   position: absolute;
   right: 10px;
 }
-
-
 /*body column*/
 .column {
   flex: 50%;
@@ -194,56 +183,7 @@ blockquote::after{
   letter-spacing: 1px;  
 }
 
-/*class categories*/
- 
-.card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
-  text-align: center;
-  height:100%;
-  margin-bottom:-20%;
-  padding-bottom: 0 6px;
-  z-index: 10;
-  box-sizing: inherit;
-}
-.card-a:link, .card-a:visited {
-  background-color: #ebece4;
-  color:black;
-  font-weight:400;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-.card-a:hover, .card-a:active {
-  background-color:#e6e9d5;}
-
-.card_info{
-  z-index: 10;  
-  opacity: 0.5;
-  padding: 20px 15px;
-  height:80%;
-  display:-ms-inline-grid;
-}
-.card_info h4{
-  color:#cbd8c6;
-  margin-top: -8%;
-}
-.card_info a{
-  color:#ebece4;
-}
-
-.contact-img a, h5{
-  font-weight: 600;
-  font-size: medium;
-  color:black;
-}
-
-h5 {
-    transition: 300ms ease-in-out;
-  } 
 /*about us page*/
-
 .about-us-img{
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
   url("../images/about-us-img.webp");
@@ -257,7 +197,6 @@ h5 {
   background-image:url("../images/gallery-img-4.webp");
   background-size:cover;
 }
-
 .team-background-img{
   background-image:url("../images/gallery-img-2.webp");
   background-size:cover;
@@ -669,6 +608,193 @@ background-size: cover;
   width:fit-content;
 }
 
+/* 2 column studio ethos section */
+.col-2 img{
+  width:100%;
+}
+.col-2 {
+  display:flex;
+  flex-direction:row;
+}
+.col-2 div {
+  border:none; 
+  flex:1; 
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.col-2 p{
+  font-size:100%;
+  font-family:Montserrat, sans-serif;
+  font-weight:300;
+  text-align: center;
+  letter-spacing: none;
+  line-height: 1.6;
+  margin-top: 5%;
+  padding: 14px 20px;
+}
+.col-2.reverse {
+  flex-direction: row-reverse;
+}
+
+/* 3 column class categories*/
+.col-3 {
+  display:flex;
+}
+.col-3 img {
+  width:25%;
+  margin-left:35%;
+}
+.col-3 div {
+  flex:1;
+  border:1px;
+  border-radius: 5%; /*add curvy edges*/
+  display:flex;
+  flex-direction:column;
+  text-align:center;
+  justify-content:flex-end;
+  z-index: 10;
+  padding: 20px;
+  margin: 0 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */ 
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 10px;
+  text-align: center;
+  height:100%;
+  margin-bottom:-20%;
+  padding-bottom: 0 6px;
+  z-index: 10;
+  box-sizing: inherit;
+}
+.card-a:link, .card-a:visited {
+  background-color: #ebece4;
+  color:black;
+  font-weight:400;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.card-a:hover, .card-a:active {
+  background-color:#e6e9d5;}
+
+.card_info{
+  z-index: 10;  
+  opacity: 0.5;
+  padding: 20px 15px;
+  height:80%;
+  display:-ms-inline-grid;
+}
+.card_info h4{
+  color:#cbd8c6;
+  margin-top: -8%;
+}
+.card_info a{
+  color:#ebece4;
+}
+
+.contact-img a, h5{
+  font-weight: 600;
+  font-size: medium;
+  color:black;
+}
+
+h5 {
+    transition: 300ms ease-in-out;
+  } 
+
+
+/**media queries**/
+
+@media only screen and (max-width: 600px) {
+  .col-2, .col-2.reverse {
+    flex-direction:column;
+    
+  }
+}
+@media only screen and (max-width: 600px) {
+  .col-3, .col-3 div {
+    flex-direction:column;
+  }
+}
+@media only screen and (max-width: 600px) {
+  iframe {   
+    height: 500px;
+  }
+}
+
+
+/*full width for all images except the logo*/
+@media screen and (max-width: 768px){
+  .about-us-img, .about-intro-img, .about-mission-img,
+   .prices-img, .contact-img,.sign-up-img, .team-background-img, .about-us-img {
+     width:100%;
+   }
+  }
+   @media screen and (max-width: 768px) {
+    .inner-col-2-split {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 768px){
+    .align-center-title h1{
+      font-size: large;
+    }
+  }
+  /*center the nav bar on tablet*/
+  @media (max-width: 768px){
+    .nav {
+      margin-left: 25%;
+      margin-left:50%;
+    }
+    .logo img{
+      margin-left:150%;
+    }
+    .nav ul{
+      flex-direction: row;
+      text-align: center;
+      display: flex;
+      margin-left:30%;
+    
+    }
+  }
+  @media only screen and (max-width: 320px){
+    .nav ul{
+      flex-direction: column;
+      text-align:center;
+      display: flex;
+      margin-left: 25%;   
+    }
+    .logo img{
+      margin-left: 30%;
+    }
+    .col-1{
+      width:100%;
+      height:100%;
+    }
+   .footer-logo img{
+      width: 100%;
+    }
+    .copyrights{
+      font-size:0.8rem;
+    }
+  }
+@media only screen and (max-width: 480px){
+  .join-btn{
+    text-align:center;   
+    justify-content: space-between;
+    margin-left: -13%;   
+  }
+}
+@media screen and (max-width: 600px){
+  .logo {
+     margin-left: -13%;       
+   }  
+}
 
 /* desktop: 1200px laptop: 1024px , tablet: 768px, mobile: 480px */
 /*media*/
@@ -679,90 +805,5 @@ background-size: cover;
       margin-left: 30px;
       margin-bottom: 20px;
       line-height: 25px;
-  }
-}
-
-/*full width for all images except the logo*/
-@media screen and (max-width: 768px){
-.about-us-img, .about-intro-img, .about-mission-img,
- .prices-img, .contact-img,.sign-up-img, .team-background-img, .about-us-img {
-   width:100%;
- }
-}
- @media screen and (max-width: 768px) {
-  .inner-col-2-split {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px){
-  .align-center-title h1{
-    font-size: large;
-  }
-}
-/*center the nav bar on tablet*/
-@media (max-width: 768px){
-  .nav {
-    margin-left: 20%;
-  }
-}
-@media only screen and (max-width: 320px){
-  .nav ul, .logo{
-    flex-direction: column;
-    text-align:center;
-    display: flex;
-    margin-left: 35%;
-    margin-right:-35%;   
-  }
-}
-@media only screen and (max-width: 480px){
-  .join-btn{
-    text-align:center;   
-    justify-content: space-between;
-    margin-left: -13%;   
-  }
-}
-@media screen and (max-width: 768px){
-  .row .card {
-      flex-direction: column;
-    }
-
-  }
-/* test*/
-/* TWO COLUMN FLEXBOX */
-.two-column img{
-  width:100%;
-}
-.two-column {
-  display:flex;
-  flex-direction:row;
-}
-
-/* TWO COLUMN FLEXBOX */
-.two-column div {
-  border:none; 
-  flex:1; 
-  text-align:center;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-.two-column p{
-  font-size:100%;
-  font-family:Montserrat, sans-serif;
-  font-weight:300;
-  text-align: center;
-  letter-spacing: none;
-  line-height: 1.6;
-  margin-top: 5%;
-  padding: 14px 20px;
-}
-.two-column.reverse {
-  flex-direction: row-reverse;
-}
-@media only screen and (max-width: 600px) {
-  .two-column, .two-column.reverse {
-    flex-direction:column;
-    
   }
 }
