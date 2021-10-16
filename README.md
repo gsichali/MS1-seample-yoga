@@ -61,14 +61,34 @@ At Seample we have two different kind of users. Online users and offline (studio
 6. As a first time studio user I would like to know if I can have an option to attend a class online.
 
 #### Site owner
+7. As a site owner, I want my customers to be able to find more information on different kinds of yoga.
+8. As a site owner, I would like customers to be able to sign up for an account.
+9. As a site owner, I would like my customers to learn more about their instructors.
+10. 9.As a site owner, I would like my customers to be able to subscribe to a studio membership.
+11. As a site owner, I would like customers to be able to schedule classes online.
+12. 9.As a site owner, I would like my customers to be able to contact me if they have any queries or issues.
 
 ## Scope
+The scope of the project is still in progress. So far users will be able to:
+ - Sign up for an account with Seample
+ - Check class time schedules and if any slots are available an alert confirming the schedule will pop up.
+ - Navigate through the website menu to find out more about us and many offers for members.
+ - Contact us if any queries or issues evolve.
+ - Watch our upcoming online classes at the comfort of their home.
+ - Embedded map showing our studio locations.
+ - Connect with us on different social media platforms.
+
+ In the next release we will be able to:
+ - Host private yoga sessions online.
+ - User will be able to connect with fellow Yogi's online using our website.
 
 ## Design
 
 ### Colour Scheme
+I chose light-green and shade dull shade of beige because these colours balance each other and create a neutral zen feeling as a user is browsing through the website.
 
 ### Typography
+The font used in the body is Montserrat, sans-serif from Google Fonts. I also used a bit of Lato, sans-serif for the headings. To break the sections out the colour I used a combination of Shadows Into Light, cursive and the shade of green to add colour. 
 
 ## Wireframes
 - Wireframes: 
