@@ -46,6 +46,8 @@ Seample users will be able to:
 - Find location of the studio and nearby amenities.
 
 ## User Experience
+I put in a good effort to develop a more user friendly website with the more important information first with easy navigation to suit everyone.
+This website is easily accessible to allow users to find the necessary information at any given time and circumstance.
 
 ### Target Audience
 2020 is the year that has transformed the wellbeing and fitness industry. And now that most businesses are migrating to online, my target audience is the people who are striving to look after their wellbeing amid the challenging times. 
@@ -153,22 +155,32 @@ About page consists of 3 sections which include a bit more of Seample, our instr
 ### Accessibility
 ### Performance 
 #### Devices tested
+Devices tested:
+- HP Pavillion
+- Samsung S20
+
 #### Tests performed:
+- Page links
+- Feeback
+- Speed
+
 #### Results: 
 ### Browser compatability
 ### Testing user stories
 
-## Bugs found and resolved
-
 ## Deployment
 
 ### GitHub Pages
+This website has been deployed using GitHub pages. And the link is provided above.
 
 ## Credits
-### Code
 ### Media
+Unsplash and pexels was used for all the media throughout their site and one video on YouTube.
 
 ### Acknowledgements:
+- My mentor Mo Shami for his feedback and support
+- My mother, Dorothy Sichali
+- My Partner Chieftain
 
 
 
