@@ -50,10 +50,15 @@ Seample users will be able to:
 ### Target Audience
 
 ### User Stories
+At Seample we have two different kind of users. Online users and offline (studio users) users. We provide exceptional services equally to all users.
 
-#### First-time users
-
-#### Regular visitors
+#### Users
+1. As a first time member in the studio, I want to know what types of yoga classes that are taught.
+2. As a first time studio user, I would like to know the schedule of the classes.
+3. As astudio user, I would like to know the the benefits of becoming a member.
+4. As a studio user I would like to know the monthly membership plans available.
+5. As a studio user I would like to know if Seample provides guidance in self improvement.
+6. As a first time studio user I would like to know if I can have an option to attend a class online.
 
 #### Site owner
 
