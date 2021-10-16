@@ -211,8 +211,7 @@ blockquote::after{
   background-size: cover; 
 }
 .overlay {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;  
   background-color: rgba(0, 0, 0, 0.5);
 }
 .overlay p{
@@ -257,7 +256,6 @@ hr.goals-line:after {
 
 .membership-list{
   list-style-type:none;
-  text-align: center;
 }
 .txt-center{
   text-align: center;
@@ -575,7 +573,7 @@ button:hover {
   margin-left:1%;
   margin-top:3%;
 }
-.socials-list, .copyrights,.align-center-title p, .accordion-day li {
+.socials-list, .copyrights,.align-center-title p{
   text-align: center; 
   
 }
@@ -659,16 +657,6 @@ background-size: cover;
   margin: 0 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */ 
 }
-.card{
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 10px;
-  text-align: center;
-  height:100%;
-  margin-bottom:-20%;
-  padding-bottom: 0 6px;
-  z-index: 10;
-  box-sizing: inherit;
-}
 .card-a:link, .card-a:visited {
   background-color: #ebece4;
   color:black;
@@ -680,21 +668,6 @@ background-size: cover;
 }
 .card-a:hover, .card-a:active {
   background-color:#e6e9d5;}
-
-.card_info{
-  z-index: 10;  
-  opacity: 0.5;
-  padding: 20px 15px;
-  height:80%;
-  display:-ms-inline-grid;
-}
-.card_info h4{
-  color:#cbd8c6;
-  margin-top: -8%;
-}
-.card_info a{
-  color:#ebece4;
-}
 
 .contact-img a, h5{
   font-weight: 600;
@@ -725,7 +698,6 @@ h5 {
     height: 500px;
   }
 }
-
 
 /*full width for all images except the logo*/
 @media screen and (max-width: 768px){
