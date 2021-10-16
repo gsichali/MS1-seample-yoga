@@ -67,9 +67,9 @@ At Seample we have two different kind of users. Online users and offline (studio
 7. As a site owner, I want my customers to be able to find more information on different kinds of yoga.
 8. As a site owner, I would like customers to be able to sign up for an account.
 9. As a site owner, I would like my customers to learn more about their instructors.
-10. 9.As a site owner, I would like my customers to be able to subscribe to a studio membership.
+10. As a site owner, I would like my customers to be able to subscribe to a studio membership.
 11. As a site owner, I would like customers to be able to schedule classes online.
-12. 9.As a site owner, I would like my customers to be able to contact me if they have any queries or issues.
+12. As a site owner, I would like my customers to be able to contact me if they have any queries or issues.
 
 ## Scope
 The scope of the project is still in progress. So far users will be able to:
@@ -115,28 +115,22 @@ A fully responsive home page  with a Join button on the hero-image. It aslo cons
 About page consists of 3 sections which include a bit more of Seample, our instructors where a link to their LinkedIn profile is added for references. The last section is our goals which is the most important part of the website. We show our users what we believe in and what we want to share.
 
 #### Feature 3: Contact Page
-![Contact Page]
-(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/contact-page.png)
+[Contact Page](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/contact-page.png)
 
 #### Feature 4: Schedule Page
-![Schedule Page]
-(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/schedule.png)
+[Schedule Page](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/schedule.png)
 
 #### Feature 5: Prices Page
-![Prices Page]
-(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/contact-page.png)
+[Prices Page](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/contact-page.png)
 
 #### Feature 6: Sign Up Page
-![Sign Page]
-(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/sign up.png)
+[Sign Up Page](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/signup.png)
 
 #### Feature 7: 404 Error Page
-![404 Error Page]
-(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/404.png)
+[404 Error Page](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/404.png)
 
 #### Feature 8: Footer
-![Footer Page]
-(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/footer.png)
+[Footer Page](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/footer.png)
 
 ## Technologies Used
 - CSS3
@@ -149,8 +143,7 @@ About page consists of 3 sections which include a bit more of Seample, our instr
 ### HTML Validation
 
 ### CSS Validation
-[!CSS Validation]
-(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/validation/css-validation.png)
+[CSS Validation](https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/validation/css-validation.png)
 
 ### Accessibility
 ### Performance 
