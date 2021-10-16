@@ -48,6 +48,7 @@ Seample users will be able to:
 ## User Experience
 
 ### Target Audience
+2020 is the year that has transformed the wellbeing and fitness industry. And now that most businesses are migrating to online, my target audience is the people who are striving to look after their wellbeing amid the challenging times. 
 
 ### User Stories
 At Seample we have two different kind of users. Online users and offline (studio users) users. We provide exceptional services equally to all users.
@@ -100,28 +101,55 @@ The font used in the body is Montserrat, sans-serif from Google Fonts. I also us
 
 
 ## Features
+The website consists of six pages including the 404 Error page and other features.
 
 #### Feature 1: Home Page
-#### Feature 2: About Page
-#### Feature 3: Contact Page
-#### Feature 4: Schedule Page
-#### Feature 5: Prices Page
-#### Feature 6: Sign Up Page
-#### Feature 7: 404 Error Page
-#### Feature 8: Navigation Bar
-#### Feature 8: Footer
-#### Feature 10: Contact Form
+A fully responsive home page  with a Join button on the hero-image. It aslo consists of a brief introduction to Seample Yoga and Yoga categories provided. The home page has a section of online upcoming video which a user can watch at  home.
+** Preview of Homepage
+![Home page]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/home-page.png)
 
+#### Feature 2: About Page
+About page consists of 3 sections which include a bit more of Seample, our instructors where a link to their LinkedIn profile is added for references. The last section is our goals which is the most important part of the website. We show our users what we believe in and what we want to share.
+
+#### Feature 3: Contact Page
+![Contact Page]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/contact-page.png)
+
+#### Feature 4: Schedule Page
+![Schedule Page]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/schedule.png)
+
+#### Feature 5: Prices Page
+![Prices Page]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/contact-page.png)
+
+#### Feature 6: Sign Up Page
+![Sign Page]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/sign up.png)
+
+#### Feature 7: 404 Error Page
+![404 Error Page]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/404.png)
+
+#### Feature 8: Footer
+![Footer Page]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/docs/mockups/footer.png)
 
 ## Technologies Used
+- CSS3
+- HTML5
 
-### Languages
 ### Frameworks
 
 ## Testing 
 
 ### HTML Validation
+
 ### CSS Validation
+[!CSS Validation]
+(https://github.com/gsichali/MS1-seample-yoga/blob/main/docs/wireframes/validation/css-validation.png)
+
 ### Accessibility
 ### Performance 
 #### Devices tested
