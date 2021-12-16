@@ -556,6 +556,7 @@ button:hover {
   float:left;
   margin-left:1%;
   margin-top:3%;
+  color: green;
 }
 .socials-list, .copyrights,.align-center-title p{
   text-align: center; 
